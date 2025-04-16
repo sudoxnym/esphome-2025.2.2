@@ -1,8 +1,7 @@
-## 2025.3.3
+## 2025.2.2
 
-- [display] Don't assume glyph x_offset is zero. [esphome#8473](https://github.com/esphome/esphome/pull/8473) by [@clydebarrow](https://github.com/clydebarrow)
-- Bump ESP mdns to 1.8.2 [esphome#8482](https://github.com/esphome/esphome/pull/8482) by [@bdraco](https://github.com/bdraco)
-- [speaker] Bugfix: Media player always unpauses when receiving a stop command [esphome#8474](https://github.com/esphome/esphome/pull/8474) by [@kahrendt](https://github.com/kahrendt)
-- [lvgl] Implement switch restore [esphome#8481](https://github.com/esphome/esphome/pull/8481) by [@clydebarrow](https://github.com/clydebarrow)
-- [speaker] Bugfixes: two pause state issues [esphome#8488](https://github.com/esphome/esphome/pull/8488) by [@kahrendt](https://github.com/kahrendt)
+- Fix ``end_of_scan_`` not being called while disconnecting [esphome#8328](https://github.com/esphome/esphome/pull/8328) by [@bdraco](https://github.com/bdraco)
+- [audio] Determine http timeout based on duration since last successful read [esphome#8341](https://github.com/esphome/esphome/pull/8341) by [@kahrendt](https://github.com/kahrendt)
+- Bump aioesphomeapi to 29.3.2 [esphome#8353](https://github.com/esphome/esphome/pull/8353) by [@bdraco](https://github.com/bdraco)
+- [ltr390] Move calculation to allow dynamic setting of gain and resolution [esphome#8343](https://github.com/esphome/esphome/pull/8343) by [@jesserockz](https://github.com/jesserockz)
 

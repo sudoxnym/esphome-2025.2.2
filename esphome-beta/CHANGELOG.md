@@ -1,8 +1,7 @@
-## 2025.4.0b3
+## 2025.2.2
 
-- Fix '--device MQTT' for devices with static IP [esphome#8535](https://github.com/esphome/esphome/pull/8535) by [@dwmw2](https://github.com/dwmw2)
-- [am2315c] Use warning not fail during update [esphome#8499](https://github.com/esphome/esphome/pull/8499) by [@swoboda1337](https://github.com/swoboda1337)
-- Bump zeroconf from 0.146.4 to 0.146.5 [esphome#8569](https://github.com/esphome/esphome/pull/8569) by [@dependabot[bot]](https://github.com/apps/dependabot)
-- Fix vscode validation not showing error squiggles [esphome#8500](https://github.com/esphome/esphome/pull/8500) by [@glmnet](https://github.com/glmnet)
-- SML runtime optimizations [esphome#8571](https://github.com/esphome/esphome/pull/8571) by [@mariusgreuel](https://github.com/mariusgreuel)
+- Fix ``end_of_scan_`` not being called while disconnecting [esphome#8328](https://github.com/esphome/esphome/pull/8328) by [@bdraco](https://github.com/bdraco)
+- [audio] Determine http timeout based on duration since last successful read [esphome#8341](https://github.com/esphome/esphome/pull/8341) by [@kahrendt](https://github.com/kahrendt)
+- Bump aioesphomeapi to 29.3.2 [esphome#8353](https://github.com/esphome/esphome/pull/8353) by [@bdraco](https://github.com/bdraco)
+- [ltr390] Move calculation to allow dynamic setting of gain and resolution [esphome#8343](https://github.com/esphome/esphome/pull/8343) by [@jesserockz](https://github.com/jesserockz)
 

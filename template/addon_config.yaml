@@ -46,7 +46,7 @@ esphome-dev:
   directory: esphome-dev
   name: ESPHome Device Builder (dev)
   panel_title: ESPHome Builder (dev)
-  version: "2025.5.0-dev20250416"  # DEV
+  version: "2025.3.0-dev20250303"  # DEV
   slug: esphome-dev
   description: "Development version of ESPHome Device Builder"
   url: https://next.esphome.io/
@@ -71,7 +71,7 @@ esphome-beta:
   directory: esphome-beta
   name: ESPHome Device Builder (beta)
   panel_title: ESPHome Builder (beta)
-  version: "2025.4.0b3"  # BETA
+  version: "2025.2.2"  # BETA
   slug: esphome-beta
   description: "Beta version of ESPHome Device Builder"
   url: https://beta.esphome.io/
@@ -86,7 +86,7 @@ esphome-stable:
   directory: esphome
   name: ESPHome Device Builder
   panel_title: ESPHome Builder
-  version: "2025.3.3"  # STABLE
+  version: "2025.2.2"  # STABLE
   slug: esphome
   description: "Build your own smart home devices using ESPHome, no programming experience required."
   image: ghcr.io/esphome/esphome-hassio
